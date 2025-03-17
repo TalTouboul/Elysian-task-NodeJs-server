@@ -7,7 +7,7 @@ const { MongoClient } = require('mongodb');
 const app = express();
 app.use(express.json());
 
-const mongoUri = process.env.MONGO_URI || 'mongodb+srv://tal:tubul1497@elysian0softech0task.t83qi7t.mongodb.net/';
+const mongoUri = process.env.MONGO_URI || 'mongodb+srv://tal:tubul1497@elysian0softech0task.nxnzmn3.mongodb.net/';
 const mongoClient = new MongoClient(mongoUri);
 let db;
 
